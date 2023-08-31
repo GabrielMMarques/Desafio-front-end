@@ -1,0 +1,184 @@
+/* limpar pré configuração do navegador (tira o espçamento do site */
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    box-shadow: 0px 0px 5px #00000066;
+    padding: 10px 0px;
+    width: 100%;
+   
+}
+
+/* container para definir o espaço onde mostra o conteúdo */
+.container {
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto; 
+}
+/* classe para estilizar o conteúdo da tela  */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+/* classe que define a area da imagem  */
+.logo {
+    width: 60px; 
+    
+}
+/* aqui já vai ser a classe que define o tamanho da tag imagem */
+.logo img {
+    width: 100%;
+}
+/* classe para definir os botoes do menu */
+.menu-header ul {
+    display: flex;
+    gap: 20px; /* Gap é o espaço entre os elementos  */
+    list-style: none;
+    padding: 0;
+}
+/* estilização do botão dentro do menu */
+.menu-header ul li a {
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #5c5656;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* estilizaçao do efeito para quando passa o mouse em cima dos botões */
+.menu-header ul li a:hover {
+    color: #004aac;
+    transition: all 0.2s ease-in-out;
+}
+
+.full_screen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biografia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotoPerfil {
+    width: 35%;
+}
+
+.fotoPerfil img {
+    width: 100%;
+    box-shadow:15px 15px 7px 1px #032e2c;
+}
+
+.sobreMim {
+    width: 45%;
+}
+
+.sobreMim h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.sobreMim p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.btn  {
+    transition: all 0.2s ease-in-out;
+    background-color: #004aae;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+   cursor: pointer; 
+   text-align: center;
+}
+.btn:hover {
+    background-color: #000308;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+
+/* css da página contato  */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input,
+form textarea {
+    outline: none;
+    border: none;
+    background: #c7ddfb8c;
+    padding: 5px 15px;
+}
+
+.area_contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario  {
+    width: 45%;
+}
+.formulario h2 {
+    font-size: 30px;
+    margin: 0 0 50px;
+}
+
+.redeSocial {
+    width: 45%;
+
+}
+.redeSocial h4 {
+    font-size: 22px;
+    margin: 0 0 50px;
+    
+} 
+.redeSocial ul {
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+    padding: 0;
+}
+
+/* css da página curiosidade */
+
+.area_curiosidade {
+    margin-top: 150px;
+}
+
+.conteudo_serie {
+    width: 50%;
+    margin-right: auto ;
+}
+
+.conteudo_serie h2 {
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+.conteudo_serie p {
+    margin: 0 0 30px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.imagem_fundo {
+    background-image: url('../img/outerbanks.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
